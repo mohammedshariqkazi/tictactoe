@@ -10,22 +10,26 @@ body {
 
 .container {
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #BFE1F8;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
-    max-width: 100%; /* Set a maximum width for the container */
-    width: 320px; /* Adjust width for smaller screens */
+    max-width: 90%;
+    width: 320px;
 }
 
 .container:hover {
     background-color: #e7e7e7;
 }
 
+.logo img {
+    max-width: 100px; /* Set a maximum width for the logo */
+}
+
 h1 {
     font-size: 2rem;
-    color: #ff6d00;
+    color: #3498db;
 }
 
 .board {
